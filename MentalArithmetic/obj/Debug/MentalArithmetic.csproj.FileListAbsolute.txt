@@ -1,0 +1,14 @@
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.AssemblyReference.cache
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.SuggestedBindingRedirects.cache
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.MentalArithmetic.resources
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Properties.Resources.resources
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.GenerateResource.cache
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.CoreCompileInputs.cache
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\MentalArithmetic.exe.config
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\MentalArithmetic.exe
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\MentalArithmetic.pdb
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.exe
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.pdb
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.BoshlashMA.resources
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Tugash.resources
+C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Rekordlarim.resources

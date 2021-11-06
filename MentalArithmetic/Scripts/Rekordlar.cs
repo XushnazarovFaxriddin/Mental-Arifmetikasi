@@ -8,23 +8,23 @@ namespace MentalArithmetic.Scripts
 {
     internal class Rekordlar
     {
-        public int id { get; set; }
-        public string vaqt {get; set; }
-        public int hisob { get; set; }
-        public int xato { get; set; }
-        public int umumiyHisob { get; set; } //formLoadSanagich
-        public double foiz { get; set; }
+        public Int32 id { get; set; }
+        public String vaqt { get; set; }
+        public Int32 hisob { get; set; }
+        public Int32 xato { get; set; }
+        public Int32 umumiyHisob { get; set; } //formLoadSanagich
+        public String foiz { get; set; }
         public Rekordlar()
         {
         }
-        public Rekordlar(int i,string v, int h, int x, int uH)
+        public Rekordlar(Int32 i,String v, Int32 h, Int32 x, Int32 uH)
         {
             this.id = i;
             this.vaqt = v;
             this.hisob = h;
             this.xato = x;
             this.umumiyHisob = uH;
-            this.foiz = h / uH;
+            this.foiz = Math.Round(h / (Double)uH,3).ToString();
         }
     }
 }

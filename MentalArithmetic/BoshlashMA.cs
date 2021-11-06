@@ -48,7 +48,7 @@ namespace MentalArithmetic
                     case 1: loveImage1.ImageLocation = "o'zgar"; break;
                     case 2: loveImage2.ImageLocation = "o'zgar"; break;
                     case 3: loveImage3.ImageLocation = "o'zgar"; break;
-                    default:Tugash tugash=new Tugash(hisobSanagich); tugash.Show(); this.Visible=false; break;
+                    default:Tugash tugash=new Tugash(hisobSanagich,xatoSanagich,formLoadSanagich); tugash.Show(); this.Visible=false; break;
                 }
             ABtn.ForeColor = Color.Black;
             BBtn.ForeColor = Color.Black;

@@ -12,3 +12,16 @@ C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\Ment
 C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.BoshlashMA.resources
 C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Tugash.resources
 C:\Users\Faxriddin\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Rekordlarim.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.exe.config
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.exe
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.pdb
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.AssemblyReference.cache
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.BoshlashMA.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.MentalArithmetic.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Properties.Resources.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Rekordlarim.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Tugash.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.GenerateResource.cache
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.CoreCompileInputs.cache
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.exe
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.pdb

@@ -41,7 +41,7 @@ namespace MentalArithmetic
         }
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            this.Close();
+            //this.Close();
             base.OnFormClosing(e);
         }
         private void tepaForm1Panel_Paint(object sender, PaintEventArgs e)
@@ -51,7 +51,8 @@ namespace MentalArithmetic
 
         private void dasturHaqidaBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(".NET developer Faxriddin Xushnazarov");
+           Malumot malumot = new Malumot();
+            malumot.Show();
         }
 
         private void RekordlarimBtn_Click(object sender, EventArgs e)

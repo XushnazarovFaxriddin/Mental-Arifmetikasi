@@ -25,3 +25,18 @@ E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.G
 E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.CoreCompileInputs.cache
 E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.exe
 E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.pdb
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.AssemblyReference.cache
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.SuggestedBindingRedirects.cache
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.BoshlashMA.resources
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.MentalArithmetic.resources
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Properties.Resources.resources
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Rekordlarim.resources
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Tugash.resources
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.GenerateResource.cache
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.CoreCompileInputs.cache
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.exe
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.pdb
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.exe.config
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.exe
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.pdb
+D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Malumot.resources

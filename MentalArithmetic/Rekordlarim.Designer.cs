@@ -135,11 +135,11 @@ namespace MentalArithmetic
             // 
             // rekordlarBindingSource1
             // 
-            this.rekordlarBindingSource1.DataSource = typeof(MentalArithmetic.Scripts.Rekordlar);
+            this.rekordlarBindingSource1.DataSource = typeof(Rekordlar);
             // 
             // rekordlarBindingSource
             // 
-            this.rekordlarBindingSource.DataSource = typeof(MentalArithmetic.Scripts.Rekordlar);
+            this.rekordlarBindingSource.DataSource = typeof(Rekordlar);
             // 
             // Rekordlarim
             // 

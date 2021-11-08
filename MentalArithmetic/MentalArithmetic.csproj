@@ -68,6 +68,7 @@
     </Compile>
     <Compile Include="Scripts\Hisoblash.cs" />
     <Compile Include="Scripts\Misollar.cs" />
+    <Compile Include="Scripts\Objects.cs" />
     <Compile Include="Scripts\Rekordlar.cs" />
     <Compile Include="Tugash.cs">
       <SubType>Form</SubType>

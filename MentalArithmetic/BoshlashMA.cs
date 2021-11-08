@@ -137,7 +137,7 @@ namespace MentalArithmetic
             switch (dr)
             {
                 case DialogResult.Yes:
-                    mentalArithmetic.Show();
+                    Tugash tugash = new Tugash(hisobSanagich, xatoSanagich, formLoadSanagich); tugash.Show();
                     e.Cancel=false;
                     break;
                 case DialogResult.No:
@@ -149,10 +149,6 @@ namespace MentalArithmetic
         private void refleshBtn_Click(object sender, EventArgs e)
         {
             BoshlashMA_Load(sender,e);
-        }
-        static void HisobTimer()
-        {
-            System.Timers.Timer timer = new System.Timers.Timer();
         }
         private void tepaForm1Panel_Paint(object sender, PaintEventArgs e)
         {

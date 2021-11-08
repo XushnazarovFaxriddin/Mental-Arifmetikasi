@@ -33,14 +33,14 @@ namespace MentalArithmetic
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.rekordlarBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.rekordlarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vaqt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xato = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.umumiyHisob = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hisob = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.foizDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rekordlarBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.rekordlarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rekordlarBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rekordlarBindingSource)).BeginInit();
@@ -49,6 +49,7 @@ namespace MentalArithmetic
             // dataGridView
             // 
             this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView.AutoGenerateColumns = false;
             this.dataGridView.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -76,25 +77,19 @@ namespace MentalArithmetic
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(897, 500);
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.Size = new System.Drawing.Size(1196, 615);
             this.dataGridView.TabIndex = 0;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
-            // 
-            // rekordlarBindingSource1
-            // 
-            this.rekordlarBindingSource1.DataSource = typeof(Rekordlar);
-            // 
-            // rekordlarBindingSource
-            // 
-            this.rekordlarBindingSource.DataSource = typeof(Rekordlar);
             // 
             // id
             // 
             this.id.DataPropertyName = "id";
             this.id.HeaderText = "id";
+            this.id.MinimumWidth = 6;
             this.id.Name = "id";
             this.id.Width = 50;
             // 
@@ -102,6 +97,7 @@ namespace MentalArithmetic
             // 
             this.vaqt.DataPropertyName = "vaqt";
             this.vaqt.HeaderText = "Vaqt";
+            this.vaqt.MinimumWidth = 6;
             this.vaqt.Name = "vaqt";
             this.vaqt.Width = 200;
             // 
@@ -109,6 +105,7 @@ namespace MentalArithmetic
             // 
             this.xato.DataPropertyName = "xato";
             this.xato.HeaderText = "Xato ishlanganlar";
+            this.xato.MinimumWidth = 6;
             this.xato.Name = "xato";
             this.xato.Width = 150;
             // 
@@ -116,6 +113,7 @@ namespace MentalArithmetic
             // 
             this.umumiyHisob.DataPropertyName = "umumiyHisob";
             this.umumiyHisob.HeaderText = "Jami misollar";
+            this.umumiyHisob.MinimumWidth = 6;
             this.umumiyHisob.Name = "umumiyHisob";
             this.umumiyHisob.Width = 150;
             // 
@@ -123,6 +121,7 @@ namespace MentalArithmetic
             // 
             this.hisob.DataPropertyName = "hisob";
             this.hisob.HeaderText = "To\'g\'ri ishlanganlar";
+            this.hisob.MinimumWidth = 6;
             this.hisob.Name = "hisob";
             this.hisob.Width = 150;
             // 
@@ -130,16 +129,26 @@ namespace MentalArithmetic
             // 
             this.foizDataGridViewTextBoxColumn.DataPropertyName = "foiz";
             this.foizDataGridViewTextBoxColumn.HeaderText = "Foizlar";
+            this.foizDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.foizDataGridViewTextBoxColumn.Name = "foizDataGridViewTextBoxColumn";
             this.foizDataGridViewTextBoxColumn.Width = 150;
             // 
+            // rekordlarBindingSource1
+            // 
+            this.rekordlarBindingSource1.DataSource = typeof(MentalArithmetic.Scripts.Rekordlar);
+            // 
+            // rekordlarBindingSource
+            // 
+            this.rekordlarBindingSource.DataSource = typeof(MentalArithmetic.Scripts.Rekordlar);
+            // 
             // Rekordlarim
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(897, 500);
+            this.ClientSize = new System.Drawing.Size(1196, 615);
             this.Controls.Add(this.dataGridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Rekordlarim";
             this.Text = "Rekordlarim";
             this.Load += new System.EventHandler(this.Rekordlarim_Load);

@@ -62,9 +62,11 @@ namespace MentalArithmetic
         }
         private void BoshSahifaBtn_Click(object sender, EventArgs e)
         {
+
+            this.Visible = false;
             MentalArithmetic mentalArithmetic = new MentalArithmetic();
             mentalArithmetic.Visible = true;
-            this.Close();
+            //this.Close();
 
         }
 
@@ -74,7 +76,11 @@ namespace MentalArithmetic
             BoshlashMA boshla =new BoshlashMA();
             boshla.Show();
         }
-
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            BoshSahifaBtn_Click(null,null);
+            base.OnFormClosing(e);
+        }
         private void Tugash_Load(object sender, EventArgs e)
         {
             hisobTxt.Text = hisob.ToString();

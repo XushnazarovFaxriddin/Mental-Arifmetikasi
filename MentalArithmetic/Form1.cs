@@ -37,9 +37,13 @@ namespace MentalArithmetic
         
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
-
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            this.Close();
+            base.OnFormClosing(e);
+        }
         private void tepaForm1Panel_Paint(object sender, PaintEventArgs e)
         {
 

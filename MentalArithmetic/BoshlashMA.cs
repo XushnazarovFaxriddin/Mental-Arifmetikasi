@@ -18,7 +18,7 @@ namespace MentalArithmetic
         static int hisobSanagich = 0, xatoSanagich = 0, formLoadSanagich = 0;
         Double qolganVaqt=1000;
         static int number=0;
-        static List<string> RandomBtnElements ,listProgress;
+        static List<string> RandomBtnElements;
         Hisoblash hisoblash = new Hisoblash();
         Misollar misollar1 = new Misollar();
         MentalArithmetic mentalArithmetic = new MentalArithmetic();
@@ -42,14 +42,17 @@ namespace MentalArithmetic
             timer.Enabled = true;
             formLoadSanagich++;
             PrograssReport.Value = 650;
-            if(xatoSanagich!=0)
+            if (xatoSanagich != 0)
+            {
                 switch (xatoSanagich)
                 {
                     case 1: loveImage1.ImageLocation = "o'zgar"; break;
                     case 2: loveImage2.ImageLocation = "o'zgar"; break;
                     case 3: loveImage3.ImageLocation = "o'zgar"; break;
-                    default:Tugash tugash=new Tugash(hisobSanagich,xatoSanagich,formLoadSanagich); tugash.Show(); this.Visible=false; break;
+                    default: Tugash tugash = new Tugash(hisobSanagich, xatoSanagich, formLoadSanagich);
+                        Hide(); tugash.ShowDialog(); Close(); break;
                 }
+            }
             ABtn.ForeColor = Color.Black;
             BBtn.ForeColor = Color.Black;
             CBtn.ForeColor = Color.Black;
@@ -137,8 +140,8 @@ namespace MentalArithmetic
             switch (dr)
             {
                 case DialogResult.Yes:
-                    Tugash tugash = new Tugash(hisobSanagich, xatoSanagich, formLoadSanagich); tugash.Show();
-                    e.Cancel=false;
+                    Tugash tugash = new Tugash(hisobSanagich, xatoSanagich, formLoadSanagich);
+                    Hide(); tugash.ShowDialog(); Show();
                     break;
                 case DialogResult.No:
                     e.Cancel = true;

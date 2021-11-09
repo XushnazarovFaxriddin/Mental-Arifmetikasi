@@ -62,23 +62,25 @@ namespace MentalArithmetic
         }
         private void BoshSahifaBtn_Click(object sender, EventArgs e)
         {
-
-            this.Visible = false;
             MentalArithmetic mentalArithmetic = new MentalArithmetic();
-            mentalArithmetic.Visible = true;
+            Hide();
+            mentalArithmetic.ShowDialog();
+            Close();
+            //mentalArithmetic.Visible = true;
             //this.Close();
 
         }
 
         private void qaytaOynashBtn_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
             BoshlashMA boshla =new BoshlashMA();
-            boshla.Show();
+            Hide();
+            boshla.ShowDialog();
+            Close();
         }
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            BoshSahifaBtn_Click(null,null);
+            //BoshSahifaBtn_Click(null,null);
             base.OnFormClosing(e);
         }
         private void Tugash_Load(object sender, EventArgs e)

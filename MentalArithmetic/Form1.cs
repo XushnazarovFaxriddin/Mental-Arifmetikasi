@@ -27,11 +27,10 @@ namespace MentalArithmetic
         private void button1_Click(object sender, EventArgs e)
         {
             BoshlashMA boshlashMA = new BoshlashMA();
-            boshlashMA.Show();
-            //  DialogResult dialog=new DialogResult()
             this.Hide();
-            if (boshlashMA.DialogResult == DialogResult.Cancel)
-                this.Show();
+            boshlashMA.ShowDialog();
+            this.Show();
+            //this.Show();
         }
 
         
@@ -43,6 +42,7 @@ namespace MentalArithmetic
         {
             //this.Close();
             base.OnFormClosing(e);
+            
         }
         private void tepaForm1Panel_Paint(object sender, PaintEventArgs e)
         {
@@ -52,13 +52,17 @@ namespace MentalArithmetic
         private void dasturHaqidaBtn_Click(object sender, EventArgs e)
         {
            Malumot malumot = new Malumot();
-            malumot.Show();
+            this.Hide();
+            malumot.ShowDialog();
+            this.Show();
         }
 
         private void RekordlarimBtn_Click(object sender, EventArgs e)
         {
             Rekordlarim rekordlarim = new Rekordlarim();
-            rekordlarim.Show();
+            this.Hide();
+            rekordlarim.ShowDialog();
+            this.Show();
         }
     }
 }

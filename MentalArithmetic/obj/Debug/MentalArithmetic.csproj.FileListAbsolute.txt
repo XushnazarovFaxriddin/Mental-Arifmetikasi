@@ -40,3 +40,4 @@ D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArith
 D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.exe
 D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\bin\Debug\MentalArithmetic.pdb
 D:\.NET\Windows Forms\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Malumot.resources
+E:\.NET\Mental-Arifmetikasi\MentalArithmetic\obj\Debug\MentalArithmetic.Malumot.resources

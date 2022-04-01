@@ -1,0 +1,3 @@
+# Mental-Arifmetikasi
+
+Dastur litsenziyalashtirilgan
